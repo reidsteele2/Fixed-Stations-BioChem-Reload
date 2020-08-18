@@ -1,0 +1,422 @@
+ODF_HEADER,
+  FILE_SPECIFICATION='C:\ODH\SEABIRD\SBEDATA\TEL2006678\CTDDATA\D0678127P.ODF'
+CRUISE_HEADER,
+  COUNTRY_INSTITUTE_CODE=1810,
+  CRUISE_NUMBER='TEL2006678',
+  ORGANIZATION='Gulf Fisheries Centr',
+  CHIEF_SCIENTIST='Tom Hurlbut',
+  START_DATE='Sept. 4, 2006',
+  END_DATE='Sept. 30, 2006',
+  PLATFORM='TELEOST',
+  CRUISE_NAME='Gulf of St. Lawrence',
+  CRUISE_DESCRIPTION='SGSL 2006 Survey' 
+EVENT_HEADER,
+  DATA_TYPE='CTD',
+  EVENT_NUMBER='127',
+  EVENT_QUALIFIER1='304156',
+  EVENT_QUALIFIER2='DN',
+  CREATION_DATE='05-JAN-2007 10:44:47.00',
+  ORIG_CREATION_DATE='20-SEP-2006 14:52:22.00',
+  START_DATE_TIME='20-SEP-2006 15:56:29.00',
+  END_DATE_TIME='17-NOV-1858 00:00:00.00',
+  INITIAL_LATITUDE=47.731200,
+  INITIAL_LONGITUDE=-64.009600,
+  END_LATITUDE=-99.900000,
+  END_LONGITUDE=-999.900000,
+  MIN_DEPTH=3.000000,
+  MAX_DEPTH=80.000000,
+  SAMPLING_INTERVAL=0.000000,
+  SOUNDING=82.000000,
+  DEPTH_OFF_BOTTOM=2.000000,
+  EVENT_COMMENTS=' ' 
+INSTRUMENT_HEADER,
+  INST_TYPE='Sea-Bird',
+  MODEL='SBE 25',
+  SERIAL_NUMBER='2513467-0184',
+  DESCRIPTION='C:\ODH\SeaBird\SBEdata\TEL2006678\ctddata\0678127p.hex C:\ODH\SeaBird\SBEdata\TEL2006678\0678127P.CON'
+HISTORY_HEADER,
+  CREATION_DATE='20-SEP-2006 14:52:22.00',
+  PROCESS='* Sea-Bird SBE 25 Data File:',
+  PROCESS='* FileName = C:\ODH\SeaBird\SBEdata\TEL2006678\0678127P.hex',
+  PROCESS='* Software Version Seasave Win32 V 5.37d',
+  PROCESS='* Temperature SN = 1593',
+  PROCESS='* Conductivity SN = 950',
+  PROCESS='* System UpLoad Time = Sep 20 2006 15:56:16',
+  PROCESS='* NMEA Latitude = 47 43.870 N',
+  PROCESS='* NMEA Longitude = 064  0.574 W',
+  PROCESS='* NMEA UTC (Time) = Sep 20 2006  15:56:29',
+  PROCESS='* Store Lat/Lon Data = Add to Header Only',
+  PROCESS='** Station: 127',
+  PROCESS='** Cast: 304156',
+  PROCESS='** Sounding: 82',
+  PROCESS='** Operator: Pauley/Chouinard',
+  PROCESS='** Instrument_Serial_Number: 2513467-0184',
+  PROCESS='** _P 299 Ox 43-660 Fl 175028 Li 2965',
+  PROCESS='** Cruise: TEL2006678',
+  PROCESS='** Cruise_Description: SGSL 2006 Survey',
+  PROCESS='** Chief_Scientist: Tom Hurlbut',
+  PROCESS='** Event_Comments: Full hydro done,,, vicinity of Shediac Valley  KP',
+  PROCESS='* Real-Time Sample Interval = 0.125 seconds',
+  PROCESS='* Surface_Pressure_Offset =  0.847, Temperature = 15.9092, Scan = 600.0',
+  PROCESS='* Near_Surface_Scan = 624.0, P = 2.121, T = 15.8977, S = 28.3068',
+  PROCESS='# nquan = 12',
+  PROCESS='# nvalues = 78',
+  PROCESS='# units = specified',
+  PROCESS='# name 0 = prSM: Pressure, Strain Gauge [db]',
+  PROCESS='# name 1 = t068C: Temperature [ITS-68, deg C]',
+  PROCESS='# name 2 = c0S/m: Conductivity [S/m]',
+  PROCESS='# name 3 = sbeox0V: Oxygen Voltage, SBE 43',
+  PROCESS='# name 4 = altM: Altimeter [m]',
+  PROCESS='# name 5 = flCM: Fluorescence, Chelsea Mini Chl Con [ug/l]',
+  PROCESS='# name 6 = par: PAR/Irradiance, Biospherical/Licor',
+  PROCESS='# name 7 = scan: Scan Count',
+  PROCESS='# name 8 = sal00: Salinity [PSU]',
+  PROCESS='# name 9 = sbeox0ML/L: Oxygen, SBE 43 [ml/l], WS = 2',
+  PROCESS='# name 10 = sigma-é00: Density [sigma-theta, Kg/m^3]',
+  PROCESS='# name 11 = flag: flag',
+  PROCESS='# span 0 =      3.000,     80.000',
+  PROCESS='# span 1 =     0.9802,    15.9186',
+  PROCESS='# span 2 =   2.763663,   3.613538',
+  PROCESS='# span 3 =     1.6746,     2.6450',
+  PROCESS='# span 4 =       0.00,      28.94',
+  PROCESS='# span 5 =     0.0816,     7.6050',
+  PROCESS='# span 6 = 1.3857e-03, 7.7129e+01',
+  PROCESS='# span 7 =       3857,       5123',
+  PROCESS='# span 8 =    28.2316,    32.4291',
+  PROCESS='# span 9 =    3.13951,    4.72528',
+  PROCESS='# span 10 =    20.5674,    25.9755',
+  PROCESS='# span 11 = 0.0000e+00, 0.0000e+00',
+  PROCESS='# interval = decibars: 1',
+  PROCESS='# start_time = Sep 20 2006 15:56:29',
+  PROCESS='# bad_flag = -9.990e-29',
+  PROCESS='# sensor 0 = Frequency 0  temperature, 1593, 26 May 1994',
+  PROCESS='# sensor 1 = Frequency 1  conductivity, 950, 27-Oct-2005, cpcor = -9.5700e-08',
+  PROCESS='# sensor 2 = Pressure Voltage, 290299, 11-Nov-2004, cpcor = -9.5700e-08',
+  PROCESS='# sensor 3 = Extrnl Volt  0  Oxygen, SBE, primary, 430660, 19-Jan-2005',
+  PROCESS='# sensor 4 = Extrnl Volt  4  altimeter',
+  PROCESS='# sensor 5 = Extrnl Volt  5  Fluorometer, Chelsea Mini, 175028, 28 Jan 1998',
+  PROCESS='# sensor 6 = Extrnl Volt  6  irradiance (PAR), primary, 2965, 22-Oct-2004/29-Feb-1996',
+  PROCESS='# datcnv_date = Sep 20 2006 14:51:32, 5.37e',
+  PROCESS='# datcnv_in = C:\ODH\SeaBird\SBEdata\TEL2006678\ctddata\0678127p.hex C:\ODH\SeaBird\SBEdata\TEL2006678\0678127P.CON',
+  PROCESS='# datcnv_skipover = 3818',
+  PROCESS='# wfilter_date = Sep 20 2006 14:51:32, 5.37e',
+  PROCESS='# wfilter_in = C:\ODH\SeaBird\SBEdata\TEL2006678\ctddata\0678127p.cnv',
+  PROCESS='# wfilter_excl_bad_scans = yes',
+  PROCESS='# wfilter_action prSM = median, 11',
+  PROCESS='# wfilter_action t068C = median, 11',
+  PROCESS='# wfilter_action c0S/m = median, 11',
+  PROCESS='# wfilter_action sbeox0V = median, 11',
+  PROCESS='# wfilter_action altM = median, 11',
+  PROCESS='# wfilter_action flCM = median, 11',
+  PROCESS='# wfilter_action par = median, 11',
+  PROCESS='# wildedit_date = Sep 20 2006 14:51:32, 5.37e',
+  PROCESS='# wildedit_in = C:\ODH\SeaBird\SBEdata\TEL2006678\ctddata\0678127p.cnv',
+  PROCESS='# wildedit_pass1_nstd = 2.0',
+  PROCESS='# wildedit_pass2_nstd = 20.0',
+  PROCESS='# wildedit_pass2_mindelta = 0.000e+000',
+  PROCESS='# wildedit_npoint = 100',
+  PROCESS='# wildedit_vars = prSM t068C c0S/m sbeox0V altM flCM par',
+  PROCESS='# wildedit_excl_bad_scans = yes',
+  PROCESS='# alignctd_date = Sep 20 2006 14:51:33, 5.37e',
+  PROCESS='# alignctd_in = C:\ODH\SeaBird\SBEdata\TEL2006678\ctddata\0678127p.cnv',
+  PROCESS='# alignctd_adv = c0S/m 0.089, sbeox0V 5.000',
+  PROCESS='# celltm_date = Sep 20 2006 14:51:33, 5.37e',
+  PROCESS='# celltm_in = C:\ODH\SeaBird\SBEdata\TEL2006678\ctddata\0678127p.cnv',
+  PROCESS='# celltm_alpha = 0.0400, 0.0000',
+  PROCESS='# celltm_tau = 8.0000, 0.0000',
+  PROCESS='# celltm_temp_sensor_use_for_cond = primary,',
+  PROCESS='# filter_date = Sep 20 2006 14:51:33, 5.37e',
+  PROCESS='# filter_in = C:\ODH\SeaBird\SBEdata\TEL2006678\ctddata\0678127p.cnv',
+  PROCESS='# filter_low_pass_tc_A = 0.030',
+  PROCESS='# filter_low_pass_tc_B = 0.500',
+  PROCESS='# filter_low_pass_A_vars = c0S/m',
+  PROCESS='# filter_low_pass_B_vars = prSM',
+  PROCESS='# loopedit_date = Sep 20 2006 14:51:34, 5.37e',
+  PROCESS='# loopedit_in = C:\ODH\SeaBird\SBEdata\TEL2006678\ctddata\0678127p.cnv',
+  PROCESS='# loopedit_minVelocity = 0.010',
+  PROCESS='# loopedit_surfaceSoak: do not remove',
+  PROCESS='# loopedit_excl_bad_scans = yes',
+  PROCESS='# Derive_date = Sep 20 2006 14:51:34, 5.37e',
+  PROCESS='# Derive_in = C:\ODH\SeaBird\SBEdata\TEL2006678\ctddata\0678127p.cnv C:\ODH\SeaBird\SBEdata\TEL2006678\0678127P.CON',
+  PROCESS='# derive_time_window_docdt = seconds: 2',
+  PROCESS='# binavg_date = Sep 20 2006 14:51:35, 5.37e',
+  PROCESS='# binavg_in = C:\ODH\SeaBird\SBEdata\TEL2006678\ctddata\0678127p.cnv',
+  PROCESS='# binavg_bintype = decibars',
+  PROCESS='# binavg_binsize = 1',
+  PROCESS='# binavg_excl_bad_scans = yes',
+  PROCESS='# binavg_skipover = 0',
+  PROCESS='# binavg_surface_bin = no, min = 0.000, max = 0.000, value = 0.000',
+  PROCESS='# file_type = ascii',
+  PROCESS='*END*' 
+HISTORY_HEADER,
+  CREATION_DATE='20-SEP-2006 14:52:22.00',
+  PROCESS='During the creation of the ODF file, 0 records flagged bad have been removed.' 
+HISTORY_HEADER,
+  CREATION_DATE='05-JAN-2007 10:44:47.00',
+  PROCESS='GF3 Name Checking and Code Formatting',
+  PROCESS='Name check performed' 
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='PRES_01',
+  UNITS='decibars',
+  CODE=PRES_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=10,
+  PRINT_DECIMAL_PLACES=3,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=3,
+  MAXIMUM_VALUE=80,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='TEMP_01',
+  UNITS='degrees C',
+  CODE=TEMP_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=4,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=0.9802,
+  MAXIMUM_VALUE=15.9186,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='CRAT_01',
+  UNITS='(none)',
+  CODE=CRAT_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=6,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=0.644,
+  MAXIMUM_VALUE=0.84204,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='OXYV_01',
+  UNITS='volts',
+  CODE=OXYV_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=4,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=1.6746,
+  MAXIMUM_VALUE=2.645,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='ALT_01',
+  UNITS='metres',
+  CODE=ALTB_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=2,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=0,
+  MAXIMUM_VALUE=28.94,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='FCMINI_01',
+  UNITS='(none)',
+  CODE=FLOR_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=12,
+  PRINT_DECIMAL_PLACES=5,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=0.0816,
+  MAXIMUM_VALUE=7.605,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='PSAR_01',
+  UNITS='micromoles/m**2/sec',
+  CODE=PSAR_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=5,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=0.00139,
+  MAXIMUM_VALUE=77.129,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+PARAMETER_HEADER,
+  TYPE='INTE',
+  NAME='CNTR_01',
+  UNITS='(none)',
+  CODE=CNTR_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=0,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=3857,
+  MAXIMUM_VALUE=5123,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='PSAL_01',
+  UNITS='psu',
+  CODE=PSAL_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=4,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=28.2316,
+  MAXIMUM_VALUE=32.4291,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='DOXY_01',
+  UNITS='ml/l',
+  CODE=DOXY_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=5,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=3.1395,
+  MAXIMUM_VALUE=4.7253,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='SIGP_01',
+  UNITS='kg/m**3',
+  CODE=SIGP_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=4,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=20.5674,
+  MAXIMUM_VALUE=25.9755,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='FFFF_01',
+  UNITS='code',
+  CODE=FFFF_01,
+  NULL_VALUE=  -99.00000000,
+  PRINT_FIELD_WIDTH=6,
+  PRINT_DECIMAL_PLACES=1,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000 ,
+  MINIMUM_VALUE=0,
+  MAXIMUM_VALUE=0,
+  NUMBER_VALID=78,
+  NUMBER_NULL=0 
+RECORD_HEADER,
+  NUM_CALIBRATION=0,
+  NUM_SWING=0,
+  NUM_HISTORY=3,
+  NUM_CYCLE=78,
+  NUM_PARAM=12 
+ -- DATA -- 
+      3.000      15.9026     0.841725       2.5850         0.00       7.50360     77.12900         3857      28.2316      4.07442      20.5707     0.0 
+      4.000      15.9186     0.842042       2.6426         0.00       7.60500     60.56400         3906      28.2316      4.18700      20.5674     0.0 
+      5.000      15.9110     0.841930       2.6450         0.00       7.39510     45.13400         3915      28.2325      4.19295      20.5698     0.0 
+      6.000      15.8955     0.841652       2.6450        12.40       7.24690     36.43400         3931      28.2329      4.19475      20.5734     0.0 
+      7.000      15.8849     0.841446       2.6440        28.94       7.19860     29.95200         3946      28.2324      4.19420      20.5754     0.0 
+      8.000      15.8711     0.841257       2.6427        28.56       7.08740     22.95700         3960      28.2348      4.19322      20.5802     0.0 
+      9.000      15.8577     0.841062       2.6440        28.58       6.89790     19.32800         3976      28.2368      4.19753      20.5846     0.0 
+     10.000      15.8460     0.840928       2.6447        28.58       6.69730     15.82900         3992      28.2398      4.20030      20.5895     0.0 
+     11.000      15.8387     0.840904       2.6430        28.58       6.45310     12.88200         4007      28.2438      4.19800      20.5941     0.0 
+     12.000      15.8339     0.840891       2.6405        28.59       6.21260     10.49900         4021      28.2464      4.19398      20.5972     0.0 
+     13.000      15.8304     0.840831       2.6338        28.59       5.90700      8.73900         4037      28.2463      4.18173      20.5979     0.0 
+     14.000      15.8187     0.840637       2.6015        28.59       5.54610      7.19060         4053      28.2471      4.11955      20.6011     0.0 
+     15.000      15.2262     0.836460       2.6130        28.59       4.72740      5.95110         4066      28.5169      4.18489      20.9339     0.0 
+     16.000      14.2194     0.829432       2.6291        28.59       4.42870      5.05050         4080      28.9892      4.29120      21.5043     0.0 
+     17.000      13.7283     0.821432       2.6374        28.59       3.98600      4.27710         4097      29.0465      4.35014      21.6462     0.0 
+     18.000      13.4218     0.816284       2.6249        28.59       3.65440      3.50420         4113      29.0762      4.35160      21.7290     0.0 
+     19.000      13.4045     0.817737       2.5470        28.59       3.32770      3.08920         4128      29.1464      4.19136      21.7866     0.0 
+     20.000      12.9433     0.809145       2.4606        28.59       2.79760      2.65120         4144      29.1578      4.05208      21.8835     0.0 
+     21.000      12.3133     0.798000       2.4091        28.59       1.82710      2.23570         4159      29.1960      3.99646      22.0300     0.0 
+     22.000      11.8243     0.790380       2.3832        28.59       1.49300      1.92760         4175      29.2670      3.98155      22.1733     0.0 
+     23.000      11.5911     0.787621       2.4147        28.59       1.55700      1.68510         4191      29.3369      4.06747      22.2687     0.0 
+     24.000      11.5190     0.790724       2.4444        28.59       2.13180      1.41320         4204      29.5221      4.13299      22.4250     0.0 
+     25.000      11.3458     0.789184       2.4444        28.59       2.54520      1.24180         4219      29.5960      4.14693      22.5127     0.0 
+     26.000      11.1602     0.786134       2.4313        28.59       2.60930      1.05850         4235      29.6174      4.13518      22.5612     0.0 
+     27.000      10.3507     0.775216       2.4135        28.59       2.61360      0.91048         4250      29.8136      4.16403      22.8494     0.0 
+     28.000       8.8296     0.751812       2.3876        28.59       2.53820      0.79460         4264      30.0633      4.24132      23.2794     0.0 
+     29.000       7.5114     0.729739       2.3824        28.59       1.94310      0.70691         4279      30.2006      4.35343      23.5744     0.0 
+     30.000       6.9176     0.721398       2.3950        28.59       1.56520      0.59211         4295      30.3353      4.43963      23.7574     0.0 
+     31.000       6.5667     0.717242       2.3955        28.59       1.24560      0.54061         4312      30.4514      4.47414      23.8928     0.0 
+     32.000       6.1127     0.710467       2.3947        28.59       1.01110      0.47636         4326      30.5373      4.51798      24.0152     0.0 
+     33.000       5.7073     0.704795       2.3981        28.59       0.87520      0.40853         4339      30.6324      4.56725      24.1373     0.0 
+     34.000       5.4579     0.701479       2.3797        28.59       1.00030      0.36641         4359      30.6993      4.54813      24.2182     0.0 
+     35.000       4.9221     0.693254       2.3601        28.59       0.77380      0.32405         4373      30.7911      4.55614      24.3483     0.0 
+     36.000       4.4273     0.686033       2.3502        28.59       0.69370      0.28593         4385      30.8945      4.58340      24.4808     0.0 
+     37.000       4.1655     0.682360       2.3356        28.59       0.61700      0.25882         4404      30.9565      4.57474      24.5557     0.0 
+     38.000       3.9546     0.679640       2.3234        28.59       0.55180      0.22862         4418      31.0187      4.56618      24.6249     0.0 
+     39.000       3.5556     0.674207       2.3174        28.59       0.52330      0.20082         4431      31.1230      4.59304      24.7441     0.0 
+     40.000       3.0738     0.667804       2.3096        28.59       0.49970      0.18375         4449      31.2580      4.62449      24.8932     0.0 
+     41.000       2.9170     0.665662       2.2950        28.59       0.47000      0.16324         4463      31.2988      4.60396      24.9386     0.0 
+     42.000       2.6962     0.662925       2.2730        28.59       0.43220      0.14480         4477      31.3714      4.57079      25.0141     0.0 
+     43.000       2.4577     0.660147       2.2483        28.59       0.35980      0.13409         4493      31.4596      4.53144      25.1030     0.0 
+     44.000       2.2999     0.657911       2.2407        28.59       0.33000      0.11899         4507      31.4972      4.52912      25.1449     0.0 
+     45.000       2.0748     0.654531       2.2513        28.59       0.39290      0.10617         4523      31.5411      4.58200      25.1962     0.0 
+     46.000       1.9055     0.652118       2.2767        28.59       0.38430      0.09590         4540      31.5808      4.66834      25.2399     0.0 
+     47.000       1.8630     0.651575       2.2900        28.59       0.33750      0.08539         4554      31.5937      4.70881      25.2531     0.0 
+     48.000       1.7791     0.650468       2.2925        28.59       0.33070      0.07770         4570      31.6179      4.72528      25.2782     0.0 
+     49.000       1.6262     0.648581       2.2765        28.59       0.29480      0.07010         4585      31.6696      4.70021      25.3298     0.0 
+     50.000       1.5347     0.647500       2.2492        28.59       0.27080      0.06303         4601      31.7031      4.63786      25.3625     0.0 
+     51.000       1.3950     0.646455       2.2202        28.59       0.24430      0.05779         4615      31.7874      4.57463      25.4391     0.0 
+     52.000       1.1695     0.644347       2.1955        28.59       0.17530      0.05234         4629      31.9018      4.53163      25.5447     0.0 
+     53.000       1.1325     0.644237       2.1678        28.59       0.19850      0.04752         4645      31.9331      4.46119      25.5721     0.0 
+     54.000       1.0664     0.644000       2.1432        28.59       0.15790      0.04352         4659      31.9873      4.40130      25.6196     0.0 
+     55.000       1.0202     0.644300       2.1145        27.67       0.13080      0.03910         4673      32.0507      4.32779      25.6732     0.0 
+     56.000       1.0174     0.645046       2.0626        25.91       0.09960      0.03534         4691      32.0939      4.18723      25.7081     0.0 
+     57.000       1.0026     0.645387       2.0242        25.12       0.10470      0.03222         4705      32.1274      4.08454      25.7359     0.0 
+     58.000       0.9802     0.646096       1.9648        25.93       0.08160      0.02910         4720      32.1889      3.92529      25.7866     0.0 
+     59.000       0.9891     0.647590       1.8947        22.94       0.08440      0.02653         4736      32.2611      3.73371      25.8441     0.0 
+     60.000       0.9929     0.648096       1.8429        24.95       0.13360      0.02405         4752      32.2844      3.59324      25.8626     0.0 
+     61.000       0.9938     0.648325       1.8059        20.89       0.16010      0.02172         4768      32.2954      3.49359      25.8715     0.0 
+     62.000       0.9948     0.648420       1.7883        19.94       0.19490      0.01960         4782      32.2991      3.44630      25.8744     0.0 
+     63.000       0.9956     0.648488       1.7750        18.84       0.23500      0.01716         4797      32.3015      3.41066      25.8762     0.0 
+     64.000       0.9969     0.648602       1.7649        17.86       0.21740      0.01471         4813      32.3058      3.38374      25.8796     0.0 
+     65.000       0.9984     0.648723       1.7578        16.81       0.23890      0.01251         4828      32.3103      3.36464      25.8831     0.0 
+     66.000       1.0006     0.648886       1.7512        21.39       0.25120      0.01046         4845      32.3164      3.34698      25.8879     0.0 
+     67.000       1.0031     0.649059       1.7453        16.07       0.26970      0.00899         4860      32.3227      3.33104      25.8929     0.0 
+     68.000       1.0049     0.649175       1.7406        19.78       0.24420      0.00774         4873      32.3267      3.31864      25.8960     0.0 
+     69.000       1.0063     0.649275       1.7350        12.41       0.21870      0.00640         4891      32.3302      3.30372      25.8987     0.0 
+     70.000       1.0092     0.649485       1.7306        20.25       0.21960      0.00554         4906      32.3382      3.29194      25.9049     0.0 
+     71.000       1.0142     0.649835       1.7258        10.92       0.24110      0.00485         4919      32.3515      3.27877      25.9153     0.0 
+     72.000       1.0186     0.650107       1.7186        15.44       0.24430      0.00410         4935      32.3614      3.25902      25.9230     0.0 
+     73.000       1.0231     0.650371       1.7107         8.03       0.19600      0.00335         4957      32.3706      3.23752      25.9302     0.0 
+     74.000       1.0265     0.650569       1.7063         7.69       0.17680      0.00300         4970      32.3774      3.22579      25.9355     0.0 
+     75.000       1.0281     0.650668       1.7024         6.36       0.23760      0.00257         4988      32.3806      3.21529      25.9380     0.0 
+     76.000       1.0293     0.650754       1.7000         5.52       0.29610      0.00220         5008      32.3835      3.20925      25.9402     0.0 
+     77.000       1.0330     0.650951       1.6997         4.45       0.20390      0.00200         5020      32.3899      3.20826      25.9451     0.0 
+     78.000       1.0392     0.651306       1.6964         3.22       0.26440      0.00172         5040      32.4023      3.19899      25.9547     0.0 
+     79.000       1.0488     0.651906       1.6883         2.51       0.21950      0.00153         5058      32.4247      3.17627      25.9721     0.0 
+     80.000       1.0514     0.652045       1.6746         1.17       0.33790      0.00139         5123      32.4291      3.13951      25.9755     0.0 

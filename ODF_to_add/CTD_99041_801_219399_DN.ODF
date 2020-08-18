@@ -1,0 +1,407 @@
+ODF_HEADER,
+  FILE_SPECIFICATION='CTD_99041_801_219399_DN'
+CRUISE_HEADER,
+  COUNTRY_INSTITUTE_CODE=1810,
+  CRUISE_NUMBER='99041',
+  ORGANIZATION='DFO GFC',
+  CHIEF_SCIENTIST='TOM HURLBUT',
+  START_DATE='07-SEP-1999 00:00:00.00',
+  END_DATE='30-SEP-1999 00:00:00.00',
+  PLATFORM='ALFRED NEEDLER',
+  CRUISE_NAME='GULF OF ST. LAWRENCE',
+  CRUISE_DESCRIPTION='AZMP ECOSYSTEM TRAWL SURVEY'
+EVENT_HEADER,
+  DATA_TYPE='CTD',
+  EVENT_NUMBER='801',
+  EVENT_QUALIFIER1='219399',
+  EVENT_QUALIFIER2='DN',
+  CREATION_DATE='21-OCT-1999 15:40:53.57',
+  ORIG_CREATION_DATE='20-SEP-1999 17:53:05.64',
+  START_DATE_TIME='20-SEP-1999 19:12:43.00',
+  END_DATE_TIME='17-NOV-1858 00:00:00.00',
+  INITIAL_LATITUDE=47.783500,
+  INITIAL_LONGITUDE=-64.039700,
+  END_LATITUDE=-99.900000,
+  END_LONGITUDE=-999.900000,
+  MIN_DEPTH=1.000000,
+  MAX_DEPTH=83.000000,
+  SAMPLING_INTERVAL=0.000000,
+  SOUNDING=81.000000,
+  DEPTH_OFF_BOTTOM=-2.000000,
+  EVENT_COMMENTS=''
+INSTRUMENT_HEADER,
+  INST_TYPE='Sea-Bird',
+  MODEL='SBE 25',
+  SERIAL_NUMBER='SBE2512508-0161',
+  DESCRIPTION='9941801P.HEX CSOFT25.CON'
+HISTORY_HEADER,
+  CREATION_DATE='20-SEP-1999 17:53:05.64',
+  PROCESS='* Sea-Bird SBE 25 Data File:',
+  PROCESS='* FileName = \SEABIRD\9941801P.HEX',
+  PROCESS='* Software Version 4.234',
+  PROCESS='* Temperature SN = 1660',
+  PROCESS='* Conductivity SN = 735',
+  PROCESS='* System UpLoad Time = Sep 20 1999 17:14:41',
+  PROCESS='** Station:  801',
+  PROCESS='** Cast:  219399',
+  PROCESS='** Latitude:  N 047 47.010',
+  PROCESS='** Longitude: W 064 02.380',
+  PROCESS='** Sounding:  81',
+  PROCESS='** Operator:  P.D.,G.C.',
+  PROCESS='** CTD:        SBE2512508-0161',
+  PROCESS='** _',
+  PROCESS='** Platform:        Alfred Needler',
+  PROCESS='** Cruise:          99041',
+  PROCESS='** Cruise_Name:     Fall Groundfish Survey',
+  PROCESS='** Chief_Scientist: Tom Hurlbut',
+  PROCESS='* ds',
+  PROCESS='* SBE 25 CTD  V 4.0 SN 161   09/20/99  20:08:30.508',
+  PROCESS='* external pressure sensor, range = 1500 psia,  tcval = 16',
+  PROCESS='* xtal = 9437441   clk = 32767.742   vmain = 11.7   iop = 170   vlith = 5.2',
+  PROCESS='* ncasts = 1   samples = 7514   free = 67102   lwait = 0 msec',
+  PROCESS='*',
+  PROCESS='* CTD configuration:',
+  PROCESS='* number of scans averaged = 1,  data stored at 8 scans per second',
+  PROCESS='* real time data transmitted at 1 scans per second',
+  PROCESS='* minimum conductivity frequency for pump turn on = 0',
+  PROCESS='* battery type = ALKALINE',
+  PROCESS='*',
+  PROCESS='* 4 external voltages sampled',
+  PROCESS='* stored voltage # 0 = external voltage 0',
+  PROCESS='* stored voltage # 1 = external voltage 1',
+  PROCESS='* stored voltage # 2 = external voltage 4',
+  PROCESS='* stored voltage # 3 = external voltage 5',
+  PROCESS='*',
+  PROCESS='* S>',
+  PROCESS='* cast 0  09/20 19:12:43  smpls 0 to 7513  nv = 4  avg = 1  stp = switch off',
+  PROCESS='# nquan = 11',
+  PROCESS='# nvalues = 83',
+  PROCESS='# units = metric',
+  PROCESS='# name 0 = c0S/m: conductivity [S/m]',
+  PROCESS='# name 1 = t068: temperature, IPTS-68 [deg C]',
+  PROCESS='# name 2 = pr: pressure [db]',
+  PROCESS='# name 3 = scan: scan number',
+  PROCESS='# name 4 = oxC: oxygen, current [ÊA]',
+  PROCESS='# name 5 = oxT: oxygen, temperature [deg C]',
+  PROCESS='# name 6 = flC: fluorometer, chelsea',
+  PROCESS='# name 7 = sal00: salinity, PSS-78 [PSU]',
+  PROCESS='# name 8 = oxML/L: oxygen [ml/l]',
+  PROCESS='# name 9 = flag:  0.000e+00',
+  PROCESS='# name 10 = nbin: number of scans per bin',
+  PROCESS='# span 0 = 2.722575, 3.474032',
+  PROCESS='# span 1 = 0.3319, 11.7559',
+  PROCESS='# span 2 = 1.000, 83.000',
+  PROCESS='# span 3 = 962, 5626',
+  PROCESS='# span 4 = 5.91268, 13.81676',
+  PROCESS='# span 5 = 0.10810, 0.75900',
+  PROCESS='# span 6 = -1.310e-02, 4.273e-01',
+  PROCESS='# span 7 = 24.2496, 32.3425',
+  PROCESS='# span 8 = 2.56236, 8.01451',
+  PROCESS='# span 9 = 0.000e+00, 0.000e+00',
+  PROCESS='# span 10 = 2.0000, 44.0000',
+  PROCESS='# interval = decibars: 1',
+  PROCESS='# start_time = Sep 20 99 19:12:43',
+  PROCESS='# bad_flag = -9.990e-29',
+  PROCESS='# sensor 0 = Frequency 0  temperature, 1660, Aug 10 1995',
+  PROCESS='# sensor 1 = Frequency 1  conductivity, 735, May 04 1999, cpcor = -9.5700e-08',
+  PROCESS='# sensor 2 = Pressure Voltage, 290274, July 28 1995 , cpcor = -9.5700e-08',
+  PROCESS='# sensor 3 = Stored Volt  0  oxygen, current, 230524, August 16 1998',
+  PROCESS='# sensor 4 = Stored Volt  1  oxygen, temperature, 230524, August 16 1998',
+  PROCESS='# sensor 5 = Stored Volt  3  fluorometer, chelsea, 88/2360/105, 17/05/96',
+  PROCESS='# datcnv_date = Sep 20 1999 17:18:42, 4.236',
+  PROCESS='# datcnv_in = 9941801P.HEX CSOFT25.CON',
+  PROCESS='# datcnv_skipover = 0',
+  PROCESS='# wildedit_date = Sep 20 1999 17:18:45, 4.236',
+  PROCESS='# wildedit_in = IGGOS.CNV',
+  PROCESS='# wildedit_pass1_nstd = 2.0',
+  PROCESS='# wildedit_pass2_nstd = 20.0',
+  PROCESS='# wildedit_npoint = 10',
+  PROCESS='# wildedit_vars = c0S/m t068 pr scan oxC oxT flC',
+  PROCESS='# wildedit_excl_bad_scans = yes',
+  PROCESS='# split_date = Sep 20 1999 17:52:44, 4.236',
+  PROCESS='# split_in = IGGOS.CNV',
+  PROCESS='# split_excl_bad_scans = yes',
+  PROCESS='# alignctd_date = Sep 20 1999 17:52:47, 4.236',
+  PROCESS='# alignctd_in = DIGGOS.CNV',
+  PROCESS='# alignctd_cond_advSecs = 0.010, 0.000',
+  PROCESS='# alignctd_temp_advSecs = 0.000, 0.000',
+  PROCESS='# alignctd_oxygen_current_advSecs = 3.000, 0.000',
+  PROCESS='# alignctd_oxygen_temp_advSecs = 3.000, 0.000',
+  PROCESS='# alignctd_wetstar_advSecs = 0.000',
+  PROCESS='# filter_date = Sep 20 1999 17:52:49, 4.236',
+  PROCESS='# filter_in = DIGGOS.CNV',
+  PROCESS='# filter_low_pass_tc_A = 0.080',
+  PROCESS='# filter_low_pass_tc_B = 0.150',
+  PROCESS='# filter_low_pass_A_vars = c0S/m t068',
+  PROCESS='# filter_low_pass_B_vars = pr',
+  PROCESS='# loopedit_date = Sep 20 1999 17:52:53, 4.236',
+  PROCESS='# loopedit_in = DIGGOS.CNV',
+  PROCESS='# loopedit_minVelocity = 0.000',
+  PROCESS='# loopedit_excl_bad_scans = yes',
+  PROCESS='# derive_date = Sep 20 1999 17:52:56, 4.236',
+  PROCESS='# derive_in = DIGGOS.CNV CSOFT25.CON',
+  PROCESS='# derive_time_window_docdt = seconds: 2',
+  PROCESS='# binavg_date = Sep 20 1999 17:52:59, 4.236',
+  PROCESS='# binavg_in = DIGGOS.CNV',
+  PROCESS='# binavg_bintype = Pressure Bins',
+  PROCESS='# binavg_binsize = 1.00',
+  PROCESS='# binavg_excl_bad_scans = yes',
+  PROCESS='# binavg_downcast_only = no',
+  PROCESS='# binavg_skipover = 0',
+  PROCESS='# binavg_surface_bin = no, min = 0.000, max = 0.000, value = 0.000',
+  PROCESS='# file_type = ascii',
+  PROCESS='*END*'
+HISTORY_HEADER,
+  CREATION_DATE='20-OCT-1999 15:39:01.85',
+  PROCESS='GF3 Name Checking and Code Formatting',
+  PROCESS='The code of Parameter `PRES_1¥ will be changed to: `PRES_01¥.',
+  PROCESS='The code of Parameter `TEMP_1¥ will be changed to: `TEMP_01¥.',
+  PROCESS='The code of Parameter `PSAL_1¥ will be changed to: `PSAL_01¥.',
+  PROCESS='The code of Parameter `DOXY_1¥ will be changed to: `DOXY_01¥.',
+  PROCESS='The code of Parameter `FLOR_1¥ will be changed to: `FLOR_01¥.',
+  PROCESS='The code of Parameter `OCUR_1¥ will be changed to: `OCUR_01¥.',
+  PROCESS='The code of Parameter `OTMP_1¥ will be changed to: `OTMP_01¥.',
+  PROCESS='The code of Parameter `CNTR_1¥ will be changed to: `CNTR_01¥.',
+  PROCESS='Name check performed'
+HISTORY_HEADER,
+  CREATION_DATE='21-OCT-1999 15:40:48.46',
+  PROCESS='GF3 Name Checking and Code Formatting',
+  PROCESS='Name check performed',
+  PROCESS='The code of Parameter `Sigma-T¥ will be changed to: `SIGT_01¥.',
+  PROCESS='Add_Parameter: A.Data.SIGT_01 = evalin('caller','sigmat(A.Data.PSAL_01,A.Data.TEMP_01,A.Data.PRES_01)');'
+HISTORY_HEADER,
+  CREATION_DATE='23-JUL-2014 10:03:48.03',
+  PROCESS='The following edits were completed by JAY BUGDEN.',
+  PROCESS='Edit Cruise: Field "Organization" has been changed from "Marine Fish Div  DFO" to "DFO GFC".',
+  PROCESS='Edit Cruise: Field "Chief_Scientist" has been changed from "Tom Hurlbut" to "TOM HURLBUT".',
+  PROCESS='Edit Cruise: Field "Start_Date" has been changed from "07-009-1999 12:00:00.0" to "07-SEP-1999 00:00:00.00".',
+  PROCESS='Edit Cruise: Field "End_Date" has been changed from "01-010-1999 16:00:00.0" to "30-SEP-1999 00:00:00.00".',
+  PROCESS='Edit Cruise: Field "Platform" has been changed from "Alfred Needler" to "ALFRED NEEDLER".',
+  PROCESS='Edit Cruise: Field "Cruise_Name" has been changed from "" to "GULF OF ST. LAWRENCE".',
+  PROCESS='Edit Cruise: Field "Cruise_Description" has been changed from "Fall Groundfish Survey" to "AZMP ECOSYSTEM TRAWL SURVEY".',
+  PROCESS='Edit Event: Field "Event_Qualifier1" has been changed from "219399" to "219399".'
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='PRES_1',
+  UNITS='decibars',
+  CODE='PRES_01',
+  NULL_VALUE='-99.00000000',
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=3,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000,
+  MINIMUM_VALUE=      1.000,
+  MAXIMUM_VALUE=     83.000,
+  NUMBER_VALID=83,
+  NUMBER_NULL=0
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='TEMP_1',
+  UNITS='degrees C',
+  CODE='TEMP_01',
+  NULL_VALUE='-99.00000000',
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=4,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000,
+  MINIMUM_VALUE=     0.3319,
+  MAXIMUM_VALUE=    11.7559,
+  NUMBER_VALID=83,
+  NUMBER_NULL=0
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='PSAL_1',
+  UNITS='psu',
+  CODE='PSAL_01',
+  NULL_VALUE='-99.00000000',
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=4,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000,
+  MINIMUM_VALUE=    24.2496,
+  MAXIMUM_VALUE=    32.3425,
+  NUMBER_VALID=83,
+  NUMBER_NULL=0
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='DOXY_1',
+  UNITS='ml/l',
+  CODE='DOXY_01',
+  NULL_VALUE='-99.00000000',
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=5,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000,
+  MINIMUM_VALUE=    2.56240,
+  MAXIMUM_VALUE=    8.01450,
+  NUMBER_VALID=82,
+  NUMBER_NULL=1
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='FLOR_1',
+  UNITS='(none)',
+  CODE='FLOR_01',
+  NULL_VALUE='-99.00000000',
+  PRINT_FIELD_WIDTH=12,
+  PRINT_DECIMAL_PLACES=7,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000,
+  MINIMUM_VALUE=  -0.0131000,
+  MAXIMUM_VALUE=   0.4273000,
+  NUMBER_VALID=83,
+  NUMBER_NULL=0
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='OCUR_1',
+  UNITS='ma',
+  CODE='OCUR_01',
+  NULL_VALUE='-99.00000000',
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=5,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000,
+  MINIMUM_VALUE=    5.91270,
+  MAXIMUM_VALUE=   13.81680,
+  NUMBER_VALID=82,
+  NUMBER_NULL=1
+PARAMETER_HEADER,
+  TYPE='DOUB',
+  NAME='OTMP_1',
+  UNITS='degrees C',
+  CODE='OTMP_01',
+  NULL_VALUE='-99.00000000',
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=5,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000,
+  MINIMUM_VALUE=    0.10810,
+  MAXIMUM_VALUE=    0.75900,
+  NUMBER_VALID=82,
+  NUMBER_NULL=1
+PARAMETER_HEADER,
+  TYPE='INTE',
+  NAME='CNTR_1',
+  UNITS='(none)',
+  CODE='CNTR_01',
+  NULL_VALUE='-99.00000000',
+  PRINT_FIELD_WIDTH=11,
+  PRINT_DECIMAL_PLACES=0,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=0.000000,
+  MINIMUM_VALUE=        962,
+  MAXIMUM_VALUE=       5626,
+  NUMBER_VALID=83,
+  NUMBER_NULL=0
+PARAMETER_HEADER,
+  TYPE='SING',
+  NAME='Sigma-T',
+  UNITS='kg/m**3',
+  CODE='SIGT_01',
+  NULL_VALUE='-99.00',
+  PRINT_FIELD_WIDTH=10,
+  PRINT_DECIMAL_PLACES=3,
+  ANGLE_OF_SECTION=0.000000,
+  MAGNETIC_VARIATION=0.000000,
+  DEPTH=83.000000,
+  MINIMUM_VALUE=    18.302,
+  MAXIMUM_VALUE=    26.335,
+  NUMBER_VALID=83,
+  NUMBER_NULL=0
+RECORD_HEADER,
+  NUM_CALIBRATION=0,
+  NUM_SWING=0,
+  NUM_HISTORY=3,
+  NUM_CYCLE=83,
+  NUM_PARAM=9
+-- DATA --
+      1.000     11.7559     24.2496     2.56236   -0.0131000     5.91268     0.10928         962     18.302 
+      2.000     11.7078     30.1499     2.58015    0.1713000     6.16012     0.10810        1079     22.887 
+      3.000     11.6949     29.9507     2.63858    0.2391000     6.29326     0.10911        1146     22.740 
+      4.000     11.6866     29.9248     2.65315    0.2903000     6.31428     0.10907        1156     22.726 
+      5.000     11.7181     29.9139     2.66790    0.3151000     6.35052     0.10907        1173     22.716 
+      6.000     11.7204     29.9131     2.67999    0.3097000     6.37194     0.10907        1182     22.720 
+      7.000     11.6345     29.9135     2.90289    0.3387000     6.87880     0.11530        1431     22.740 
+      8.000     11.5536     29.9087     2.92260    0.3671000     6.90536     0.11694        1445     22.755 
+      9.000     11.5244     29.9024     2.92871    0.3823000     6.91983     0.11693        1453     22.760 
+     10.000     11.5047     29.8990     3.89632    0.4120000     9.19690     0.26346        2692     22.765 
+     11.000     11.4902     29.8981     5.14731    0.4244000    12.05540     0.45938        4241     22.771 
+     12.000     11.4798     29.8966     5.16587    0.4273000    12.10094     0.46259        4267     22.776 
+     13.000     11.4592     29.8963     5.17851    0.4118000    12.12469     0.46661        4281     22.784 
+     14.000     11.4439     29.8976     5.19297    0.3942000    12.15320     0.47152        4301     22.793 
+     15.000     11.3958     29.9081     5.21106    0.3575000    12.17545     0.47239        4314     22.814 
+     16.000     11.3346     29.9220     5.23110    0.3047000    12.20330     0.47582        4332     22.840 
+     17.000     11.2863     29.9437     5.24612    0.2828000    12.22648     0.47904        4348     22.870 
+     18.000     11.1425     29.9961     5.28233    0.2427000    12.25384     0.48250        4362     22.940 
+     19.000     10.6484     30.1181     5.36486    0.2108000    12.30080     0.48967        4384     23.123 
+     20.000     10.2000     30.1914     5.43305    0.1857000    12.31550     0.49025        4395     23.259 
+     21.000      9.6705     30.2915     5.51909    0.1648000    12.33743     0.49321        4412     23.427 
+     22.000      8.5684     30.5509     5.69275    0.1442000    12.35677     0.49879        4426     23.802 
+     23.000      6.5471     30.9042     6.01390    0.1177000    12.38793     0.50152        4445     24.358 
+     24.000      5.2048     31.1663     6.26447    0.1015000    12.40139     0.50454        4458     24.727 
+     25.000      4.1424     31.2902     6.46889    0.0821700    12.43460     0.50928        4478     24.940 
+     26.000      3.3943     31.4883     6.62711    0.0682000    12.45792     0.51294        4493     25.171 
+     27.000      2.8895     31.5300     6.73561    0.0542100    12.48088     0.51467        4505     25.252 
+     28.000      2.7472     31.4951     6.78297    0.0405700    12.51522     0.51947        4528     25.241 
+     29.000      2.5470     31.5352     6.83805    0.0406000    12.53286     0.52333        4538     25.293 
+     30.000      2.4202     31.5456     6.87678    0.0380600    12.56036     0.52547        4552     25.316 
+     31.000      2.1568     31.5795     6.94240    0.0362400    12.58913     0.53293        4573     25.368 
+     32.000      1.8139     31.6062     7.02691    0.0295900    12.60668     0.53433        4586     25.418 
+     33.000      1.7534     31.6051     7.05927    0.0281600    12.63403     0.53709        4602     25.426 
+     34.000      1.5870     31.6604     7.11221    0.0278600    12.66902     0.54050        4621     25.486 
+     35.000      1.4215     31.7277     7.15334    0.0274500    12.68593     0.54428        4630     25.556 
+     36.000      1.2609     31.8327     7.19552    0.0235600    12.70647     0.54913        4646     25.655 
+     37.000      1.1313     31.8861     7.23895    0.0252500    12.73760     0.55162        4670     25.710 
+     38.000      1.0824     31.8865     7.25757    0.0242500    12.74875     0.55723        4677     25.718 
+     39.000      1.0477     31.8959     7.28079    0.0232400    12.77618     0.56305        4698     25.733 
+     40.000      0.8112     31.9885     7.34211    0.0237900    12.79571     0.57221        4713     25.826 
+     41.000      0.7287     32.0114     7.36554    0.0180700    12.80897     0.57040        4723     25.853 
+     42.000      0.7245     32.0050     7.39621    0.0211000    12.84482     0.57735        4747     25.853 
+     43.000      0.7025     32.0112     7.41665    0.0200100    12.87560     0.57979        4760     25.864 
+     44.000      0.6809     32.0219     7.42335    0.0199500    12.88676     0.58165        4771     25.879 
+     45.000      0.6650     32.0320     7.45240    0.0211700    12.92355     0.58853        4797     25.893 
+     46.000      0.5705     32.0896     7.47451    0.0186300    12.93257     0.58813        4805     25.949 
+     47.000      0.5478     32.0993     7.49286    0.0183700    12.95445     0.59384        4821     25.963 
+     48.000      0.5075     32.1202     7.51430    0.0214700    12.97680     0.59607        4839     25.986 
+     49.000      0.4789     32.1465     7.53106    0.0210000    12.99178     0.60030        4849     26.014 
+     50.000      0.4451     32.1643     7.55414    0.0254300    13.02332     0.60326        4871     26.035 
+     51.000      0.3729     32.2018     7.59147    0.0205100    13.04216     0.60756        4885     26.073 
+     52.000      0.3453     32.2125     7.60968    0.0219600    13.07290     0.61104        4900     26.088 
+     53.000      0.3418     32.2103     7.62482    0.0231400    13.10067     0.61370        4919     26.091 
+     54.000      0.3406     32.2101     7.63075    0.0183200    13.11436     0.61805        4930     26.096 
+     55.000      0.3406     32.2138     7.64371    0.0241400    13.13371     0.62281        4949     26.104 
+     56.000      0.3369     32.2149     7.66176    0.0215200    13.15944     0.62654        4966     26.110 
+     57.000      0.3337     32.2184     7.66936    0.0217500    13.17273     0.62943        4979     26.117 
+     58.000      0.3321     32.2191     7.68920    0.0230900    13.20463     0.63534        5003     26.123 
+     59.000      0.3326     32.2190     7.69750    0.0218000    13.21747     0.63526        5012     26.127 
+     60.000      0.3336     32.2187     7.71600    0.0205200    13.24618     0.64119        5033     26.132 
+     61.000      0.3319     32.2187     7.72861    0.0240400    13.26816     0.64322        5050     26.137 
+     62.000      0.3331     32.2200     7.74080    0.0232800    13.28543     0.64660        5059     26.143 
+     63.000      0.3353     32.2210     7.75860    0.0222300    13.32055     0.65457        5086     26.148 
+     64.000      0.3436     32.2280     7.77367    0.0245900    13.33953     0.65886        5098     26.158 
+     65.000      0.3509     32.2316     7.77879    0.0275000    13.36014     0.66008        5114     26.165 
+     66.000      0.3581     32.2372     7.79931    0.0264500    13.39118     0.66726        5135     26.174 
+     67.000      0.3614     32.2451     7.79597    0.0214600    13.39909     0.66833        5142     26.185 
+     68.000      0.3778     32.2558     7.81225    0.0221400    13.42740     0.67403        5165     26.198 
+     69.000      0.3937     32.2653     7.82645    0.0245600    13.45225     0.67922        5180     26.209 
+     70.000      0.4019     32.2744     7.83002    0.0241800    13.46883     0.68501        5193     26.221 
+     71.000      0.4027     32.2810     7.84195    0.0271500    13.49287     0.68993        5214     26.231 
+     72.000      0.4237     32.2963     7.84503    0.0292400    13.50857     0.69469        5226     26.247 
+     73.000      0.4156     32.3078     7.85599    0.0220400    13.52487     0.69796        5241     26.261 
+     74.000      0.4255     32.3135     7.87080    0.0262300    13.54982     0.70150        5260     26.270 
+     75.000      0.4477     32.3203     7.87235    0.0285900    13.56891     0.70454        5276     26.279 
+     76.000      0.4533     32.3239     7.88017    0.0251600    13.58083     0.71021        5289     26.287 
+     77.000      0.4565     32.3265     7.89284    0.0190700    13.60539     0.71525        5313     26.293 
+     78.000      0.4617     32.3330     7.89902    0.0203500    13.61531     0.72137        5323     26.303 
+     79.000      0.4644     32.3357     7.91756    0.0269000    13.64275     0.72274        5340     26.310 
+     80.000      0.4651     32.3360     7.93109    0.0301200    13.66410     0.72565        5358     26.315 
+     81.000      0.4651     32.3362     7.95761    0.0290200    13.71856     0.73867        5401     26.320 
+     82.000      0.4641     32.3374     8.01451    0.0268300    13.81676     0.75900        5478     26.325 
+     83.000      0.4603     32.3425   -99.00000    0.0357000   -99.00000   -99.00000        5626     26.335 
