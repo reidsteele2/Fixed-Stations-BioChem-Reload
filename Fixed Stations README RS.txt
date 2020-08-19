@@ -83,3 +83,11 @@ Documentation:
 
 1. Fixed Stations BCS Creation Issue Log.docx - contains a log of all the issues I encountered while creating primarily while creating BCS files, but includes a few BCD issues as well. Resolved issues are highlighted in green, all other
 colours represent unresolved issues.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Pending Issues
+
+1. Waiting to hear back from Brian Boivin to confirm whether or not he intends to archive data from IML-2004-61 in BioChem
+
+2. Jeff is still looking for some missing salinity data from BCD1999669, BCD2000669, and BCD2009669
